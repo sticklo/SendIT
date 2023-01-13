@@ -18,7 +18,9 @@
     <header>
       <nav>
         <div class="logo">
-          <a href="index.html"><img src="/images/send-it.png" alt="logo" /></a>
+          <a href="../index.html"
+            ><img src="/images/send-it.png" alt="logo"
+          /></a>
         </div>
         <a href="sign-in.html"><button class="btn nav__btn">Sign In</button></a>
       </nav>
@@ -26,27 +28,32 @@
     <div class="container">
       <div class="left-container">
         <h1 class="heading__md">Sign Up</h1>
-        <h3>Want to send your packages fast and safely across Europe & West Africa? Join us.</h3>
+        <h3>
+          Want to send your packages fast and safely across Europe & West
+          Africa? Join us.
+        </h3>
         <div class="left__span">
           <p class="text__sm">
             Already have an account?
-            <span><a href="sign-in.html"><p class="green">sign in</p></a></span>
+            <span
+              ><a href="sign-in.html"><p class="green">sign in</p></a></span
+            >
           </p>
         </div>
       </div>
       <div class="right-container">
-        <form class="form">
-            <div class="form__group">
-                <label class="form__label" for="name">Full name</label>
-                <input
-                  class="form__input"
-                  type=""
-                  id="fullname"
-                  name="email"
-                  required
-                  placeholder="Enter your full name"
-                />
-              </div>
+        <form action="/pages/user.html" class="form">
+          <div class="form__group">
+            <label class="form__label" for="name">Full name</label>
+            <input
+              class="form__input"
+              type=""
+              id="fullname"
+              name="email"
+              required
+              placeholder="Enter your full name"
+            />
+          </div>
           <div class="form__group">
             <label class="form__label" for="email">Email address</label>
             <input
@@ -69,9 +76,8 @@
               placeholder="Enter your password"
             />
           </div>
-          
+
           <button class="form__submit" type="submit">Sign In</button>
-          
         </form>
       </div>
     </div>
