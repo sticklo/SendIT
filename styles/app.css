@@ -71,7 +71,7 @@ img {
   color: #0cc14c;
 }
 
-.btn {
+.btn { 
   display: inline-block;
   border-radius: 10px;
   width: 8.5rem;
@@ -80,6 +80,29 @@ img {
   background-color: #0cc14c;
   color: #fff;
 }
+
+hr {
+  border-color: #E6E6E6;
+  /* border-color: #0cc14c; */
+  
+  margin: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.user-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 4rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
 
 .hero-container {
   background-image: url("/images/hero-new.jpg");
@@ -91,12 +114,7 @@ img {
   box-shadow: 0px 4px 4px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 4rem;
-}
+
 
 .hero-mid {
   max-width: 35rem;
