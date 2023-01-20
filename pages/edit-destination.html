@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SendIT-Sign-Up</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2, user-scalable=yes"
+    />
+
+    <link rel="stylesheet" href="/styles/app.css" />
+    <link rel="stylesheet" href="/styles/packages.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="user-nav">
+        <div class="logo">
+          <a href="../index.html"
+            ><img src="/images/send-it.png" alt="logo"
+          /></a>
+        </div>
+        <a href="/pages/user.html"
+          ><iconify-icon
+            icon="iconoir:profile-circle"
+            style="color: #0cc14c"
+            width="60"
+            height="60"
+          ></iconify-icon
+        ></a>
+      </nav>
+    </header>
+    <div class="container">
+      <form action="/pages/delivery-details.html" class="form">
+        <h1 class="center">Edit Destination</h1>
+
+        
+
+        <h3>Destination <span>*</span></h3>
+        <hr />
+        <div class="form__group">
+          <label class="form__label" for="pickup"> Address line </label>
+          <input
+            class="form__input"
+            type=""
+            id="pickup"
+            name="pickup"
+            required
+            placeholder="Address"
+          />
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="city"> City </label>
+          <input
+            class="form__input"
+            type=""
+            id="city"
+            name="city"
+            required
+            placeholder="city"
+          />
+        </div>
+       
+
+        <div class="send-package__btn ">
+          <button class="form__submit progress__btn" type="submit">Save</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="" async defer></script>
+  </body>
+</html>

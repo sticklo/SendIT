@@ -11,7 +11,7 @@ form {
   padding: 3rem;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 33.33%;
+  min-width: 33.33%;
 }
 
 .form__group {
@@ -52,12 +52,13 @@ form span {
 .send-package__btn {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  gap: 0.2rem;
 }
 
 .send-package__btn button {
-  background-color: #0cc14c;
   color: #fff;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   border: none;
   font-size: 1rem;
@@ -66,4 +67,40 @@ form span {
   text-transform: uppercase;
   width: 100%;
   margin-bottom: 1rem;
+}
+
+.progress__btn{
+  background-color: #0cc14c;
+}
+
+.cancel__btn {
+  background-color: #011308;
+}
+
+.destination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.edit-destination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid #0cc14c;
+  border-radius: 1rem;
+  width: 4rem;
+}
+
+
+.delivery-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.delivery-status p {
+  color: #666666;
 }
